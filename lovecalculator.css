@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('image/love-woos.jpg') center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+
+html {
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: rgb(82, 59, 62);
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    width: 250px;
+    height: auto;
+
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+}
+
+.container-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+
+    padding: 10px;
+
+}
+
+.name-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 8px;
+    margin: 10px;
+}
+
+.submit-box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    border: none;
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+
+input:focus {
+    outline: none;
+}
+
+.result-box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+
+    text-align: center;
+}
+
+.DOCUMENTATION {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.nopopup {
+    display: none;
+}
+
+.goback {
+    display: none;
+    text-align: center;
+}
+
+.showgoback {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.docu {
+    display: none;
+}
+
+.show {
+    display: block;
+}
